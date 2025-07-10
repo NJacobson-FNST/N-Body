@@ -1,4 +1,4 @@
-import pygame, numpy as np, Body, quadtree, Mechanics, Camera, Utilities, Collision
+import pygame, quadtree, Mechanics, Camera, Utilities, Collision
 
 pygame.init()
 font = pygame.font.SysFont("Arial", 18)
