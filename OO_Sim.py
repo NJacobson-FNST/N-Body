@@ -23,5 +23,5 @@ while running:
     collisions = Collision.detect_collisions(bodies, qt)
     tracked_body_index = Collision.handle_collisions(bodies,collisions,collision_tracker,step,merge_delay_steps,tracked_body_index)
     Camera.render_scene(screen,bodies,acc,trail,step,Camera.zoom,Camera.camera_offset,font,clock,tracked_body_index,qt)
-    clock.tick(180)
+    clock.tick(255)
     step += 1
